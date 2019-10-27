@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" /> 
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+        <title>Test website- Minimalist design</title>
+            </head>
+    <link rel="icon"
+      type="image/png"
+      href="logo.png"/>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css"/>
+
+<body  style="text-align:center;">         
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style='color:white;'>&times;</a>
+  <a href="#">Menu Item 1</a>
+  <a href="#">Menu Item 2</a>
+  <a href="#">Menu Item 3</a>
+  <a href="#">Menu Item 4</a>
+</div>
+
+<span style="position:absolute;font-size:40px;cursor:pointer;color:white;margin:10px;left:0.02%;top:-1.15%" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>   
+
+<div class="header">
+<h><b>Heading<b></h>
+</div>
+
+<div class="text">
+<p>Paragraph</p><br>
+<p>Some text for show seperation after using "br".</p>
+<p>Some text without the use of "br".</p><br>
+<p>The item below is my logo.</p>   
+</div>
+
+
+<img src="logo.png"></img>
+
+<div class="footer">
+<p>Footer @Tomáš Mozdřeň</p>
+</div>
+</body>
+</html>
+
